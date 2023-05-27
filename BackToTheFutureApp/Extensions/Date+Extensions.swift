@@ -3,9 +3,10 @@ import Foundation
 extension Date {
     
     func dateAfter(years: Int) -> Date? {
-     
-        // TODO
-        return nil
+        var years = Date()
+        years = self.dateAfter(years: 10)!
+        
+        return years
     }
     
     func formattedDate() -> String {
